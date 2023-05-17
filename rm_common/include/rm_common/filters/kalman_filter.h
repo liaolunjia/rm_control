@@ -72,7 +72,7 @@ public:
     x_ = x;
     inited = true;
     K_ = DMat<T>::Zero(n_, m_);
-    P_ = DMat<T>::Zero(n_, m_);
+    P_ = DMat<T>::Zero(n_, n_);
     P_new_ = DMat<T>::Zero(n_, n_);
   }
 
